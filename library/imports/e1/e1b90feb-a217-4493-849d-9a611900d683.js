@@ -33,8 +33,6 @@ var Helloworld = /** @class */ (function (_super) {
     }
     Helloworld.prototype.start = function () {
     };
-    Helloworld.prototype.onBtnPlay = function () {
-    };
     __decorate([
         property(cc.Label)
     ], Helloworld.prototype, "label", void 0);

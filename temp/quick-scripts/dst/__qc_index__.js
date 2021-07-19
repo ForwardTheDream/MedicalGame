@@ -11,7 +11,6 @@
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/Script/HomeScene');
-require('./assets/Script/Object/BaseObject');
 require('./assets/Script/Tables/TableStruct');
 require('./assets/Script/Tables/TableSystem');
 require('./assets/Script/Tables/Table_ErrorCode');

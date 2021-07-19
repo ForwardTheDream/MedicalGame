@@ -1,566 +1,105 @@
-2021-07-15T07:06:43.507Z - normal: Load ~/.CocosCreator/settings.json
-2021-07-15T07:06:43.544Z - normal: Initializing Asset Database
-2021-07-15T07:06:43.546Z - normal: checking language setting...
-2021-07-15T07:06:43.547Z - normal: Language: zh
-2021-07-15T07:06:44.325Z - success: protocol editor-framework registered
-2021-07-15T07:06:44.326Z - success: protocol app registered
-2021-07-15T07:06:44.326Z - success: protocol theme registered
-2021-07-15T07:06:44.326Z - success: protocol packages registered
-2021-07-15T07:06:44.326Z - success: protocol uuid registerred
-2021-07-15T07:06:44.326Z - success: protocol db registerred
-2021-07-15T07:06:44.326Z - success: protocol thumbnail registerred
-2021-07-15T07:06:44.326Z - success: protocol unpack registerred
-2021-07-15T07:06:44.326Z - success: protocol disable-commonjs registerred
-2021-07-15T07:06:44.578Z - normal: connected!
-2021-07-15T07:06:44.579Z - normal: Check project /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame
-2021-07-15T07:06:44.580Z - normal: Initializing project /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame
-2021-07-15T07:06:44.726Z - success: adapters loaded
-2021-07-15T07:06:44.732Z - success: asset-db-debugger loaded
-2021-07-15T07:06:44.791Z - success: fb-audience-network loaded
-2021-07-15T07:06:44.816Z - success: fb-live-stream loaded
-2021-07-15T07:06:44.817Z - success: google-play-instant loaded
-2021-07-15T07:06:44.817Z - success: jsb-adapter loaded
-2021-07-15T07:06:44.821Z - success: package-manager loaded
-2021-07-15T07:06:44.822Z - success: runtime-adapters loaded
-2021-07-15T07:06:44.824Z - success: runtime-dev-tools loaded
-2021-07-15T07:06:44.826Z - success: ui-kit-preview-extra loaded
-2021-07-15T07:06:44.828Z - success: ui-kit-preview loaded
-2021-07-15T07:06:44.871Z - success: alipay-minigame loaded
-2021-07-15T07:06:44.920Z - success: assets loaded
-2021-07-15T07:06:44.922Z - success: baidugame-opendata loaded
-2021-07-15T07:06:44.923Z - success: baidugame loaded
-2021-07-15T07:06:44.926Z - success: builder loaded
-2021-07-15T07:06:44.929Z - success: bytedance-opendata loaded
-2021-07-15T07:06:44.930Z - success: bytedance loaded
-2021-07-15T07:06:44.932Z - success: channel-upload-tools loaded
-2021-07-15T07:06:44.937Z - success: cloud-function loaded
-2021-07-15T07:06:45.048Z - success: cocos-services loaded
-2021-07-15T07:06:45.052Z - success: console loaded
-2021-07-15T07:06:45.053Z - success: curve-editor loaded
-2021-07-15T07:06:45.062Z - success: fb-instant-games loaded
-2021-07-15T07:06:45.064Z - success: game-window loaded
-2021-07-15T07:06:45.064Z - success: google-instant-games loaded
-2021-07-15T07:06:45.067Z - success: hierarchy loaded
-2021-07-15T07:06:45.069Z - success: huawei-agc loaded
-2021-07-15T07:06:45.071Z - success: huawei-runtime loaded
-2021-07-15T07:06:45.074Z - success: inspector loaded
-2021-07-15T07:06:45.086Z - success: cpk-publish loaded
-2021-07-15T07:06:45.087Z - success: keystore loaded
-2021-07-15T07:06:45.098Z - success: link-sure-runtime loaded
-2021-07-15T07:06:45.106Z - success: node-library loaded
-2021-07-15T07:06:45.106Z - success: open-recent-items loaded
-2021-07-15T07:06:45.109Z - success: oppo-runtime loaded
-2021-07-15T07:06:45.110Z - success: package-asset loaded
-2021-07-15T07:06:45.111Z - success: preferences loaded
-2021-07-15T07:06:45.115Z - success: project-importer loaded
-2021-07-15T07:06:45.117Z - success: project-settings loaded
-2021-07-15T07:06:45.127Z - success: qtt-runtime loaded
-2021-07-15T07:06:45.130Z - success: scene loaded
-2021-07-15T07:06:45.130Z - success: simulator-debugger loaded
-2021-07-15T07:06:45.130Z - success: sprite-editor loaded
-2021-07-15T07:06:45.164Z - success: store loaded
-2021-07-15T07:06:45.167Z - success: timeline loaded
-2021-07-15T07:06:45.171Z - success: vivo-runtime loaded
-2021-07-15T07:06:45.172Z - success: wechatgame-opendata loaded
-2021-07-15T07:06:45.175Z - success: wechatgame loaded
-2021-07-15T07:06:45.177Z - success: xiaomi-runtime loaded
-2021-07-15T07:06:45.215Z - success: im-plugin loaded
-2021-07-15T07:06:45.217Z - success: preview server running at http://localhost:7456
-2021-07-15T07:06:46.215Z - normal: Initializing Cocos2d
-2021-07-15T07:06:46.508Z - normal: Initializing engine extends
-2021-07-15T07:06:47.177Z - info: Cocos Service load base data!
-2021-07-15T07:06:47.179Z - normal: Loading packages
-2021-07-15T07:06:47.183Z - normal: Watching packages
-2021-07-15T07:06:47.257Z - normal: Run Application
-2021-07-15T07:06:50.301Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
+2021-07-19T02:41:21.552Z - normal: Load ~/.CocosCreator/settings.json
+2021-07-19T02:41:21.598Z - normal: Initializing Asset Database
+2021-07-19T02:41:21.600Z - normal: checking language setting...
+2021-07-19T02:41:21.600Z - normal: Language: zh
+2021-07-19T02:41:22.318Z - success: protocol editor-framework registered
+2021-07-19T02:41:22.318Z - success: protocol app registered
+2021-07-19T02:41:22.319Z - success: protocol theme registered
+2021-07-19T02:41:22.319Z - success: protocol packages registered
+2021-07-19T02:41:22.319Z - success: protocol uuid registerred
+2021-07-19T02:41:22.319Z - success: protocol db registerred
+2021-07-19T02:41:22.319Z - success: protocol thumbnail registerred
+2021-07-19T02:41:22.319Z - success: protocol unpack registerred
+2021-07-19T02:41:22.319Z - success: protocol disable-commonjs registerred
+2021-07-19T02:41:22.524Z - normal: connected!
+2021-07-19T02:41:22.525Z - normal: Check project /Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame
+2021-07-19T02:41:22.525Z - normal: Initializing project /Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame
+2021-07-19T02:41:22.632Z - success: adapters loaded
+2021-07-19T02:41:22.635Z - success: asset-db-debugger loaded
+2021-07-19T02:41:22.678Z - success: fb-audience-network loaded
+2021-07-19T02:41:22.702Z - success: fb-live-stream loaded
+2021-07-19T02:41:22.703Z - success: google-play-instant loaded
+2021-07-19T02:41:22.704Z - success: jsb-adapter loaded
+2021-07-19T02:41:22.707Z - success: package-manager loaded
+2021-07-19T02:41:22.708Z - success: runtime-adapters loaded
+2021-07-19T02:41:22.709Z - success: runtime-dev-tools loaded
+2021-07-19T02:41:22.711Z - success: ui-kit-preview-extra loaded
+2021-07-19T02:41:22.713Z - success: ui-kit-preview loaded
+2021-07-19T02:41:22.751Z - success: alipay-minigame loaded
+2021-07-19T02:41:22.799Z - success: assets loaded
+2021-07-19T02:41:22.801Z - success: baidugame-opendata loaded
+2021-07-19T02:41:22.802Z - success: baidugame loaded
+2021-07-19T02:41:22.805Z - success: builder loaded
+2021-07-19T02:41:22.806Z - success: bytedance-opendata loaded
+2021-07-19T02:41:22.807Z - success: bytedance loaded
+2021-07-19T02:41:22.809Z - success: channel-upload-tools loaded
+2021-07-19T02:41:22.813Z - success: cloud-function loaded
+2021-07-19T02:41:22.941Z - success: cocos-services loaded
+2021-07-19T02:41:22.944Z - success: console loaded
+2021-07-19T02:41:22.945Z - success: curve-editor loaded
+2021-07-19T02:41:22.953Z - success: fb-instant-games loaded
+2021-07-19T02:41:22.956Z - success: game-window loaded
+2021-07-19T02:41:22.956Z - success: google-instant-games loaded
+2021-07-19T02:41:22.959Z - success: hierarchy loaded
+2021-07-19T02:41:22.961Z - success: huawei-agc loaded
+2021-07-19T02:41:22.963Z - success: huawei-runtime loaded
+2021-07-19T02:41:22.967Z - success: inspector loaded
+2021-07-19T02:41:22.978Z - success: cpk-publish loaded
+2021-07-19T02:41:22.978Z - success: keystore loaded
+2021-07-19T02:41:22.989Z - success: link-sure-runtime loaded
+2021-07-19T02:41:22.998Z - success: node-library loaded
+2021-07-19T02:41:22.998Z - success: open-recent-items loaded
+2021-07-19T02:41:23.001Z - success: oppo-runtime loaded
+2021-07-19T02:41:23.002Z - success: package-asset loaded
+2021-07-19T02:41:23.003Z - success: preferences loaded
+2021-07-19T02:41:23.006Z - success: project-importer loaded
+2021-07-19T02:41:23.007Z - success: project-settings loaded
+2021-07-19T02:41:23.018Z - success: qtt-runtime loaded
+2021-07-19T02:41:23.022Z - success: scene loaded
+2021-07-19T02:41:23.023Z - success: simulator-debugger loaded
+2021-07-19T02:41:23.023Z - success: sprite-editor loaded
+2021-07-19T02:41:23.053Z - success: store loaded
+2021-07-19T02:41:23.057Z - success: timeline loaded
+2021-07-19T02:41:23.059Z - success: vivo-runtime loaded
+2021-07-19T02:41:23.061Z - success: wechatgame-opendata loaded
+2021-07-19T02:41:23.063Z - success: wechatgame loaded
+2021-07-19T02:41:23.065Z - success: xiaomi-runtime loaded
+2021-07-19T02:41:23.101Z - success: im-plugin loaded
+2021-07-19T02:41:23.104Z - success: preview server running at http://localhost:7456
+2021-07-19T02:41:24.274Z - normal: Initializing Cocos2d
+2021-07-19T02:41:24.545Z - normal: Initializing engine extends
+2021-07-19T02:41:25.003Z - warn: [db-task][init] Backup unused meta file: db://assets/GameRes/Common.meta
+2021-07-19T02:41:34.674Z - info: Cocos Service load base data!
+2021-07-19T02:41:35.260Z - normal: Loading packages
+2021-07-19T02:41:35.263Z - normal: Watching packages
+2021-07-19T02:41:35.336Z - normal: Run Application
+2021-07-19T02:41:38.397Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
+    at __define (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
+    at /Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
     at Module._compile (internal/modules/cjs/loader.js:839:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
     at Module.load (internal/modules/cjs/loader.js:701:32)
     at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
     at Function.Module._load (internal/modules/cjs/loader.js:625:3)
     at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T07:06:50.302Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
+2021-07-19T02:41:38.398Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
+    at __define (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
+    at /Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
     at Module._compile (internal/modules/cjs/loader.js:839:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
     at Module.load (internal/modules/cjs/loader.js:701:32)
     at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
     at Function.Module._load (internal/modules/cjs/loader.js:625:3)
     at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T07:06:50.302Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:57:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:62:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:71:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T07:07:13.343Z - failed: Traceback (most recent call last):
-  File "<string>", line 3, in <module>
-  File "/Users/ludingguo/anaconda3/lib/python3.7/locale.py", line 568, in getdefaultlocale
-    return _parse_localename(localename)
-  File "/Users/ludingguo/anaconda3/lib/python3.7/locale.py", line 495, in _parse_localename
-    raise ValueError('unknown locale: %s' % localename)
-ValueError: unknown locale: UTF-8
-
-2021-07-15T07:07:13.561Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 799.00
-2021-07-15T07:07:13.562Z - normal: Simulator: FRAME SCALE = 0.50
-2021-07-15T07:07:13.642Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2021-07-15T07:07:13.643Z - normal: Simulator: 
-2021-07-15T07:07:13.643Z - normal: Simulator: {
-2021-07-15T07:07:13.643Z - normal: Simulator: 	gl.supports_float_texture: true
-2021-07-15T07:07:13.643Z - normal: Simulator: 	gl.supports_ATITC: false
-2021-07-15T07:07:13.643Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2021-07-15T07:07:13.643Z - normal: Simulator: 	gl.supports_NPOT: true
-2021-07-15T07:07:13.643Z - normal: Simulator: 	gl.supports_ETC2: false
-2021-07-15T07:07:13.644Z - normal: Simulator: 	build_type: DEBUG
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.vendor: Intel Inc.
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.supports_PVRTC: false
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.supports_ETC1: false
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.max_texture_size: 16384
-2021-07-15T07:07:13.644Z - normal: Simulator: 	gl.max_texture_units: 16
-2021-07-15T07:07:13.645Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2021-07-15T07:07:13.645Z - normal: Simulator: 	compiled_with_gl_state_cache: true
-2021-07-15T07:07:13.645Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2021-07-15T07:07:13.645Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2021-07-15T07:07:13.645Z - normal: Simulator: 	gl.supports_S3TC: true
-2021-07-15T07:07:13.645Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.10.30
-2021-07-15T07:07:13.645Z - normal: Simulator: 	compiled_with_profiler: false
-2021-07-15T07:07:13.646Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2021-07-15T07:07:13.646Z - normal: Simulator: }
-2021-07-15T07:07:13.661Z - normal: Simulator: Project Config:
-2021-07-15T07:07:13.661Z - normal: Simulator:     project dir: /Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2021-07-15T07:07:13.661Z - normal: Simulator:     writable path: $(PROJDIR)/
-2021-07-15T07:07:13.661Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2021-07-15T07:07:13.662Z - normal: Simulator:     frame size: 1920 x 1080
-2021-07-15T07:07:13.662Z - normal: Simulator:     frame scale: 0.50
-2021-07-15T07:07:13.662Z - normal: Simulator:     show console: NO
-2021-07-15T07:07:13.662Z - normal: Simulator:     write debug log: NO ()
-2021-07-15T07:07:13.662Z - normal: Simulator:     listen: 
-2021-07-15T07:07:13.662Z - normal: Simulator:     debugger: none
-2021-07-15T07:07:13.662Z - normal: Simulator:     add searching path:
-2021-07-15T07:07:13.662Z - normal: Simulator: resetDesignResolution request
-2021-07-15T07:07:13.662Z - normal: Simulator: ------------------------------------------------
-2021-07-15T07:07:13.663Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2021-07-15T07:07:13.663Z - normal: Simulator: ------------------------------------------------
-2021-07-15T07:07:13.663Z - normal: Simulator: Initializing V8, version: 8.0.426.16
-2021-07-15T07:07:13.708Z - normal: Simulator: libuv version: 1.23.1-dev
-2021-07-15T07:07:13.708Z - normal: Simulator: Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2021-07-15T07:07:13.708Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
-2021-07-15T07:07:13.766Z - normal: Simulator: JS: Enable batch GL commands optimization!
-2021-07-15T07:07:13.768Z - normal: Simulator: resetDesignResolution request
-2021-07-15T07:07:13.769Z - normal: Simulator: ------------------------------------------------
-2021-07-15T07:07:13.769Z - normal: Simulator: LOAD Js FILE: main.js
-2021-07-15T07:07:13.770Z - normal: Simulator: ------------------------------------------------
-2021-07-15T07:07:13.990Z - normal: Simulator: JS: Read json failed: path: /Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/gamecaches/cacheList.json message: Unexpected end of JSON input
-2021-07-15T07:07:13.994Z - normal: Simulator: iShow!
-2021-07-15T07:07:14.128Z - error: Simulator: ERROR: Uncaught ReferenceError: TableStruct is not defined, location: dst/assets/Script/Tables/Table_ErrorCode.js:0:0
-STACK:
-[0]__define@dst/assets/Script/Tables/Table_ErrorCode.js:55
-[1]anonymous@dst/assets/Script/Tables/Table_ErrorCode.js:64
-[2]require@dst/__quick_compile__.js:189
-[3]__require@dst/__qc_index__.js:9
-[4]__define@dst/__qc_index__.js:16
-[5]anonymous@dst/__qc_index__.js:27
-[6]anonymous@dst/__quick_compile__.js:205
-[7]run@dst/__quick_compile__.js:201
-[8]anonymous@dst/__quick_compile__.js:250
-[9]anonymous@dst/__quick_compile__.js:102
-[10]loadScript@dst/__quick_compile__.js:64
-[11]anonymous@dst/__quick_compile__.js:99
-[12]loadScripts@dst/__quick_compile__.js:98
-[13]load@dst/__quick_compile__.js:249
-[14]_loadPreviewScript@src/cocos2d-jsb.js:17903
-[15]prepare@src/cocos2d-jsb.js:17931
-[16]run@src/cocos2d-jsb.js:17938
-[17]anonymous@main.js:60
-[18]anonymous@src/cocos2d-jsb.js:20681
-[19]anonymous@src/cocos2d-jsb.js:22189
-    at HTMLElement.print-simulator-log (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1606)
-    at Object.e._dispatch (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1876)
-    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2952)
-    at EventEmitter.emit (events.js:194:13)
-    at EventEmitter.emit (domain.js:469:20)
-    at EventEmitter.topLevelDomainCallback (domain.js:124:23)
-2021-07-15T07:07:14.129Z - error: Simulator: [ERROR] (/Users/nantas/jenkins/workspace/Creator_2D/cocos2d-x-lite/mac/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 574): Invoking function (0x7f8ed3c50220) failed!
-    at HTMLElement.print-simulator-log (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1606)
-    at Object.e._dispatch (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1876)
-    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2952)
-    at EventEmitter.emit (events.js:194:13)
-    at EventEmitter.emit (domain.js:469:20)
-    at EventEmitter.topLevelDomainCallback (domain.js:124:23)
-2021-07-15T07:07:14.129Z - normal: Simulator: JS: [ERROR]: (see stack) Uncaught ReferenceError: TableStruct is not defined [0]__define@dst/assets/Script/Tables/Table_ErrorCode.js:55
-2021-07-15T07:07:14.129Z - normal: Simulator: [1]anonymous@dst/assets/Script/Tables/Table_ErrorCode.js:64
-2021-07-15T07:07:14.130Z - normal: Simulator: [2]require@dst/__quick_compile__.js:189
-2021-07-15T07:07:14.130Z - normal: Simulator: [3]__require@dst/__qc_index__.js:9
-2021-07-15T07:07:14.130Z - normal: Simulator: [4]__define@dst/__qc_index__.js:16
-2021-07-15T07:07:14.130Z - normal: Simulator: [5]anonymous@dst/__qc_index__.js:27
-2021-07-15T07:07:14.130Z - normal: Simulator: [6]anonymous@dst/__quick_compile__.js:205
-2021-07-15T07:07:14.130Z - normal: Simulator: [7]run@dst/__quick_compile__.js:201
-2021-07-15T07:07:14.130Z - normal: Simulator: [8]anonymous@dst/__quick_compile__.js:250
-2021-07-15T07:07:14.130Z - normal: Simulator: [9]anonymous@dst/__quick_compile__.js:102
-2021-07-15T07:07:14.131Z - normal: Simulator: [10]loadScript@dst/__quick_compile__.js:64
-2021-07-15T07:07:14.131Z - normal: Simulator: [11]anonymous@dst/__quick_compile__.js:99
-2021-07-15T07:07:14.131Z - normal: Simulator: [12]loadScripts@dst/__quick_compile__.js:98
-2021-07-15T07:07:14.131Z - normal: Simulator: [13]load@dst/__quick_compile__.js:249
-2021-07-15T07:07:14.131Z - normal: Simulator: [14]_loadPreviewScript@src/cocos2d-jsb.js:17903
-2021-07-15T07:07:14.131Z - normal: Simulator: [15]prepare@src/cocos2d-jsb.js:17931
-2021-07-15T07:07:14.131Z - normal: Simulator: [16]run@src/cocos2d-jsb.js:17938
-2021-07-15T07:07:14.131Z - normal: Simulator: [17]anonymous@main.js:60
-2021-07-15T07:07:14.132Z - normal: Simulator: [18]anonymous@src/cocos2d-jsb.js:20681
-2021-07-15T07:07:14.132Z - normal: Simulator: [19]anonymous@src/cocos2d-jsb.js:22189
-2021-07-15T07:07:14.137Z - normal: Simulator: JS: load __quick_compile_project__: 8.492999999999995ms
-2021-07-15T07:07:14.558Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-2021-07-15T07:07:14.570Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 1024, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2021-07-15T07:07:14.570Z - normal: Simulator: JS: Cocos Creator v2.4.3
-2021-07-15T07:07:14.664Z - normal: Simulator: JS: [WARN]: 'cc.Asset.url' is deprecated, please use 'nativeUrl' instead.
-2021-07-15T07:07:16.599Z - normal: Simulator: ScriptEngine::cleanup begin ...
-2021-07-15T07:07:16.599Z - normal: Simulator: GC begin ..., (js->native map) size: 125, all objects: 344
-2021-07-15T07:07:16.616Z - normal: Simulator: GC end ..., (js->native map) size: 84, all objects: 303
-2021-07-15T07:07:16.618Z - normal: Simulator: GC begin ..., (js->native map) size: 84, all objects: 303
-2021-07-15T07:07:16.622Z - normal: Simulator: GC end ..., (js->native map) size: 84, all objects: 303
-2021-07-15T07:07:16.623Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: -1
-2021-07-15T07:07:16.624Z - normal: Simulator: Function object is released!
-2021-07-15T07:07:16.624Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: -1
-2021-07-15T07:07:16.633Z - normal: Simulator: Starting to cleanup dragonbones object, count: 162
-2021-07-15T07:07:16.633Z - normal: Simulator: After cleanup, dragonbones object remained count: 0
-2021-07-15T07:07:16.633Z - normal: Simulator: ScriptEngine::cleanup end ...
-2021-07-15T07:43:52.696Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T07:43:52.697Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T07:43:52.698Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:39.315Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:39.316Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:39.317Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:55.373Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:55.373Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:53:55.373Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:54:23.408Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:54:23.408Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:54:23.408Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:57:06.194Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:57:06.195Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:57:06.195Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-15T08:57:27.171Z - failed: Traceback (most recent call last):
-  File "<string>", line 3, in <module>
-  File "/Users/ludingguo/anaconda3/lib/python3.7/locale.py", line 568, in getdefaultlocale
-    return _parse_localename(localename)
-  File "/Users/ludingguo/anaconda3/lib/python3.7/locale.py", line 495, in _parse_localename
-    raise ValueError('unknown locale: %s' % localename)
-ValueError: unknown locale: UTF-8
-
-2021-07-15T08:57:27.378Z - normal: Simulator: WORKAREA WIDTH 1440.00, HEIGHT 792.00
-2021-07-15T08:57:27.378Z - normal: Simulator: FRAME SCALE = 0.50
-2021-07-15T08:57:27.466Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2021-07-15T08:57:27.466Z - normal: Simulator: 
-2021-07-15T08:57:27.466Z - normal: Simulator: {
-2021-07-15T08:57:27.467Z - normal: Simulator: 	gl.supports_float_texture: true
-2021-07-15T08:57:27.467Z - normal: Simulator: 	gl.supports_ATITC: false
-2021-07-15T08:57:27.467Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2021-07-15T08:57:27.467Z - normal: Simulator: 	gl.supports_NPOT: true
-2021-07-15T08:57:27.467Z - normal: Simulator: 	gl.supports_ETC2: false
-2021-07-15T08:57:27.467Z - normal: Simulator: 	build_type: DEBUG
-2021-07-15T08:57:27.468Z - normal: Simulator: 	gl.vendor: Intel Inc.
-2021-07-15T08:57:27.468Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Plus Graphics 655
-2021-07-15T08:57:27.468Z - normal: Simulator: 	gl.supports_PVRTC: false
-2021-07-15T08:57:27.468Z - normal: Simulator: 	gl.supports_ETC1: false
-2021-07-15T08:57:27.468Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.max_texture_size: 16384
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.max_texture_units: 16
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2021-07-15T08:57:27.469Z - normal: Simulator: 	compiled_with_gl_state_cache: true
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2021-07-15T08:57:27.469Z - normal: Simulator: 	gl.supports_S3TC: true
-2021-07-15T08:57:27.470Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.10.30
-2021-07-15T08:57:27.470Z - normal: Simulator: 	compiled_with_profiler: false
-2021-07-15T08:57:27.470Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2021-07-15T08:57:27.470Z - normal: Simulator: }
-2021-07-15T08:57:27.488Z - normal: Simulator: Project Config:
-2021-07-15T08:57:27.488Z - normal: Simulator:     project dir: /Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2021-07-15T08:57:27.488Z - normal: Simulator:     writable path: $(PROJDIR)/
-2021-07-15T08:57:27.489Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2021-07-15T08:57:27.489Z - normal: Simulator:     frame size: 1920 x 1080
-2021-07-15T08:57:27.489Z - normal: Simulator:     frame scale: 0.50
-2021-07-15T08:57:27.489Z - normal: Simulator:     show console: NO
-2021-07-15T08:57:27.489Z - normal: Simulator:     write debug log: NO ()
-2021-07-15T08:57:27.489Z - normal: Simulator:     listen: 
-2021-07-15T08:57:27.489Z - normal: Simulator:     debugger: none
-2021-07-15T08:57:27.490Z - normal: Simulator:     add searching path:
-2021-07-15T08:57:27.490Z - normal: Simulator: resetDesignResolution request
-2021-07-15T08:57:27.490Z - normal: Simulator: ------------------------------------------------
-2021-07-15T08:57:27.490Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2021-07-15T08:57:27.490Z - normal: Simulator: ------------------------------------------------
-2021-07-15T08:57:27.490Z - normal: Simulator: Initializing V8, version: 8.0.426.16
-2021-07-15T08:57:27.524Z - normal: Simulator: libuv version: 1.23.1-dev
-2021-07-15T08:57:27.526Z - normal: Simulator: Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2021-07-15T08:57:27.527Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
-2021-07-15T08:57:27.587Z - normal: Simulator: JS: Enable batch GL commands optimization!
-2021-07-15T08:57:27.589Z - normal: Simulator: resetDesignResolution request
-2021-07-15T08:57:27.589Z - normal: Simulator: ------------------------------------------------
-2021-07-15T08:57:27.590Z - normal: Simulator: LOAD Js FILE: main.js
-2021-07-15T08:57:27.590Z - normal: Simulator: ------------------------------------------------
-2021-07-15T08:57:27.813Z - normal: Simulator: JS: Read json failed: path: /Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/gamecaches/cacheList.json message: Unexpected end of JSON input
-2021-07-15T08:57:27.818Z - normal: Simulator: iShow!
-2021-07-15T08:57:27.962Z - error: Simulator: ERROR: Uncaught ReferenceError: TableStruct is not defined, location: dst/assets/Script/Tables/Table_ErrorCode.js:0:0
-STACK:
-[0]__define@dst/assets/Script/Tables/Table_ErrorCode.js:55
-[1]anonymous@dst/assets/Script/Tables/Table_ErrorCode.js:64
-[2]require@dst/__quick_compile__.js:189
-[3]__require@dst/__qc_index__.js:9
-[4]__define@dst/__qc_index__.js:17
-[5]anonymous@dst/__qc_index__.js:28
-[6]anonymous@dst/__quick_compile__.js:205
-[7]run@dst/__quick_compile__.js:201
-[8]anonymous@dst/__quick_compile__.js:250
-[9]anonymous@dst/__quick_compile__.js:102
-[10]loadScript@dst/__quick_compile__.js:64
-[11]anonymous@dst/__quick_compile__.js:99
-[12]loadScripts@dst/__quick_compile__.js:98
-[13]load@dst/__quick_compile__.js:249
-[14]_loadPreviewScript@src/cocos2d-jsb.js:17903
-[15]prepare@src/cocos2d-jsb.js:17931
-[16]run@src/cocos2d-jsb.js:17938
-[17]anonymous@main.js:60
-[18]anonymous@src/cocos2d-jsb.js:20681
-[19]anonymous@src/cocos2d-jsb.js:22189
-    at HTMLElement.print-simulator-log (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1606)
-    at Object.e._dispatch (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1876)
-    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2952)
-    at EventEmitter.emit (events.js:194:13)
-    at EventEmitter.emit (domain.js:469:20)
-    at EventEmitter.topLevelDomainCallback (domain.js:124:23)
-2021-07-15T08:57:27.962Z - normal: Simulator: JS: [ERROR]: (see stack) Uncaught ReferenceError: TableStruct is not defined [0]__define@dst/assets/Script/Tables/Table_ErrorCode.js:55
-2021-07-15T08:57:27.962Z - normal: Simulator: [1]anonymous@dst/assets/Script/Tables/Table_ErrorCode.js:64
-2021-07-15T08:57:27.963Z - normal: Simulator: [2]require@dst/__quick_compile__.js:189
-2021-07-15T08:57:27.963Z - normal: Simulator: [3]__require@dst/__qc_index__.js:9
-2021-07-15T08:57:27.963Z - normal: Simulator: [4]__define@dst/__qc_index__.js:17
-2021-07-15T08:57:27.963Z - normal: Simulator: [5]anonymous@dst/__qc_index__.js:28
-2021-07-15T08:57:27.963Z - normal: Simulator: [6]anonymous@dst/__quick_compile__.js:205
-2021-07-15T08:57:27.963Z - normal: Simulator: [7]run@dst/__quick_compile__.js:201
-2021-07-15T08:57:27.964Z - normal: Simulator: [8]anonymous@dst/__quick_compile__.js:250
-2021-07-15T08:57:27.964Z - normal: Simulator: [9]anonymous@dst/__quick_compile__.js:102
-2021-07-15T08:57:27.964Z - normal: Simulator: [10]loadScript@dst/__quick_compile__.js:64
-2021-07-15T08:57:27.964Z - normal: Simulator: [11]anonymous@dst/__quick_compile__.js:99
-2021-07-15T08:57:27.964Z - normal: Simulator: [12]loadScripts@dst/__quick_compile__.js:98
-2021-07-15T08:57:27.964Z - normal: Simulator: [13]load@dst/__quick_compile__.js:249
-2021-07-15T08:57:27.964Z - normal: Simulator: [14]_loadPreviewScript@src/cocos2d-jsb.js:17903
-2021-07-15T08:57:27.964Z - normal: Simulator: [15]prepare@src/cocos2d-jsb.js:17931
-2021-07-15T08:57:27.965Z - normal: Simulator: [16]run@src/cocos2d-jsb.js:17938
-2021-07-15T08:57:27.965Z - normal: Simulator: [17]anonymous@main.js:60
-2021-07-15T08:57:27.965Z - normal: Simulator: [18]anonymous@src/cocos2d-jsb.js:20681
-2021-07-15T08:57:27.965Z - normal: Simulator: [19]anonymous@src/cocos2d-jsb.js:22189
-2021-07-15T08:57:27.965Z - error: Simulator: [ERROR] (/Users/nantas/jenkins/workspace/Creator_2D/cocos2d-x-lite/mac/cocos2d-x-lite/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 574): Invoking function (0x7f8359c389d0) failed!
-    at HTMLElement.print-simulator-log (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1606)
-    at Object.e._dispatch (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1876)
-    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/2.4.3/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2952)
-    at EventEmitter.emit (events.js:194:13)
-    at EventEmitter.emit (domain.js:469:20)
-    at EventEmitter.topLevelDomainCallback (domain.js:124:23)
-2021-07-15T08:57:27.975Z - normal: Simulator: JS: load __quick_compile_project__: 8.902999999999963ms
-2021-07-15T08:57:28.389Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-2021-07-15T08:57:28.400Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 1024, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2021-07-15T08:57:28.400Z - normal: Simulator: JS: Cocos Creator v2.4.3
-2021-07-15T08:57:28.502Z - normal: Simulator: JS: [WARN]: 'cc.Asset.url' is deprecated, please use 'nativeUrl' instead.
-2021-07-15T08:57:31.511Z - normal: Simulator: ScriptEngine::cleanup begin ...
-2021-07-15T08:57:31.511Z - normal: Simulator: GC begin ..., (js->native map) size: 125, all objects: 344
-2021-07-15T08:57:31.526Z - normal: Simulator: GC end ..., (js->native map) size: 84, all objects: 303
-2021-07-15T08:57:31.526Z - normal: Simulator: GC begin ..., (js->native map) size: 84, all objects: 303
-2021-07-15T08:57:31.534Z - normal: Simulator: GC end ..., (js->native map) size: 84, all objects: 303
-2021-07-15T08:57:31.541Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: -1
-2021-07-15T08:57:31.541Z - normal: Simulator: Function object is released!
-2021-07-15T08:57:31.542Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: -1
-2021-07-15T08:57:31.543Z - normal: Simulator: Starting to cleanup dragonbones object, count: 162
-2021-07-15T08:57:31.544Z - normal: Simulator: After cleanup, dragonbones object remained count: 0
-2021-07-15T08:57:31.544Z - normal: Simulator: ScriptEngine::cleanup end ...
-2021-07-19T01:44:29.161Z - failed: load script [./assets/Script/Tables/Table_ErrorCode] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_ErrorCode.js:69:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-19T01:44:29.162Z - failed: load script [./assets/Script/Tables/Table_Scene] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:53:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:58:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:65:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Scene.js:67:3)
-    at Module._compile (internal/modules/cjs/loader.js:839:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
-    at Module.load (internal/modules/cjs/loader.js:701:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
-    at Module.require (internal/modules/cjs/loader.js:739:19)
-2021-07-19T01:44:29.163Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
-    at __define (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:55:3)
-    at /Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:60:25
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:67:19)
-    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameSVN/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:3)
+2021-07-19T02:41:38.398Z - failed: load script [./assets/Script/Tables/Table_Story] failed : ReferenceError: TableStruct is not defined
+    at __define (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:57:3)
+    at /Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:62:25
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:69:19)
+    at Object.<anonymous> (/Users/ludingguo/Documents/WiGameGIT/Projects/MedicalGame/temp/quick-scripts/dst/assets/Script/Tables/Table_Story.js:71:3)
     at Module._compile (internal/modules/cjs/loader.js:839:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
     at Module.load (internal/modules/cjs/loader.js:701:32)
