@@ -1,6 +1,5 @@
 
 require('./assets/Script/HomeScene');
-require('./assets/Script/Object/BaseObject');
 require('./assets/Script/Tables/TableStruct');
 require('./assets/Script/Tables/TableSystem');
 require('./assets/Script/Tables/Table_ErrorCode');

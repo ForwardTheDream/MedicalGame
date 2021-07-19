@@ -30,6 +30,7 @@ var Table_Story = /** @class */ (function (_super) {
         var _this = _super.call(this) || this;
         // define member values here
         _this.m_ID = 0; //剧情ID
+        _this.m_Type = 0; //引导语类型（1：NPC说话，2：引导用户说话）
         _this.m_TalkerID = 0; //当前说话者的编号，0：表示用户说话
         _this.m_Word = ""; //如果是NPC，则展示该语句，如果是用户，则对比是否说了这句话
         return _this;
@@ -37,6 +38,7 @@ var Table_Story = /** @class */ (function (_super) {
     Table_Story.prototype.initTable = function (jsonData) {
         // init member values here
         this.m_ID = jsonData.ID;
+        this.m_Type = jsonData.Type;
         this.m_TalkerID = jsonData.TalkerID;
         this.m_Word = jsonData.Word;
     };
