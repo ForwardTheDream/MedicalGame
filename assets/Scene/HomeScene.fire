@@ -180,7 +180,7 @@
       "array": [
         0,
         0,
-        361.36263137599116,
+        260.20003889642146,
         0,
         0,
         0,
@@ -529,6 +529,9 @@
     "_components": [
       {
         "__id__": 14
+      },
+      {
+        "__id__": 15
       }
     ],
     "_prefab": null,
@@ -554,7 +557,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        255.462,
+        -72.605,
         395.294,
         0,
         0,
@@ -618,5 +621,15 @@
     "_N$debugBones": false,
     "_N$enableBatch": false,
     "_id": "33UeMEmPpH9Z/ygIKyOtSm"
+  },
+  {
+    "__type__": "acf9b1KdmJHcKF0g1BCsnq5",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 13
+    },
+    "_enabled": true,
+    "_id": "bcu2HBHcBPlaTXP/itSkZw"
   }
 ]
