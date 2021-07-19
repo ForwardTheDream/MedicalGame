@@ -19,9 +19,6 @@
       },
       {
         "__id__": 13
-      },
-      {
-        "__id__": 16
       }
     ],
     "_active": true,
@@ -184,7 +181,7 @@
       "array": [
         0,
         0,
-        358.5345171667576,
+        361.36263137599116,
         0,
         0,
         0,
@@ -533,9 +530,6 @@
     "_components": [
       {
         "__id__": 14
-      },
-      {
-        "__id__": 15
       }
     ],
     "_prefab": null,
@@ -561,8 +555,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        333.059,
-        356.496,
+        255.462,
+        395.294,
         0,
         0,
         0,
@@ -625,74 +619,5 @@
     "_N$debugBones": false,
     "_N$enableBatch": false,
     "_id": "33UeMEmPpH9Z/ygIKyOtSm"
-  },
-  {
-    "__type__": "99a14FArHVHG5oCRZCAlQdM",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 13
-    },
-    "_enabled": true,
-    "object_id": 1,
-    "_id": "72tSghOCBMjrY9Jg6XZWk/"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "Player",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 1
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "bfui0p7jxBPoaQPjEMz34j"
   }
 ]
