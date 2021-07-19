@@ -5,10 +5,11 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import BaseObject from "./BaseObject"
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class Bird extends BaseObject{
 
     // LIFE-CYCLE CALLBACKS:
 

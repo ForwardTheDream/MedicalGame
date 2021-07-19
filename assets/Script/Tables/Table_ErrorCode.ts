@@ -7,8 +7,9 @@
  * @function :  Table_ErrorCode class define
  *
  */
- 
- class Table_ErrorCode extends TableStruct{
+import TableStruct from "./TableStruct";
+  
+export default class Table_ErrorCode extends TableStruct{
  
 	// define member values here
 	public m_ID:number = 0;	//错误ID

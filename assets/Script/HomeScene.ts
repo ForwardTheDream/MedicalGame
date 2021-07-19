@@ -7,7 +7,14 @@ export default class HomeScene extends cc.Component {
     label: cc.Label = null;
 
     start () {
-        
+        this.node.runAction(
+            cc.sequence(
+                cc.delayTime(6),
+                cc.callFunc(() => {
+                    cc.director.loadScene("ParkScene");
+                })
+            )
+        )
     }
 
     update () {

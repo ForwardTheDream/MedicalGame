@@ -7,8 +7,9 @@
  * @function :  Table_Scene class define
  *
  */
- 
- class Table_Scene extends TableStruct{
+import TableStruct from "./TableStruct";
+  
+export default class Table_Scene extends TableStruct{
  
 	// define member values here
 	public m_ID:number = 0;	//场景编号

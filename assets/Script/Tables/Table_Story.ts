@@ -7,8 +7,9 @@
  * @function :  Table_Story class define
  *
  */
- 
- class Table_Story extends TableStruct{
+import TableStruct from "./TableStruct";
+  
+export default class Table_Story extends TableStruct{
  
 	// define member values here
 	public m_ID:number = 0;	//剧情ID

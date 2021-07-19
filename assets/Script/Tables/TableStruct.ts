@@ -7,8 +7,8 @@
  * @function :  TableStruct class define
  *
  */
- 
- class TableStruct {
+  
+export default class TableStruct {
  
 	// define member values here
 	

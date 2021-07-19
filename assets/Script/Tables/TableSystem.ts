@@ -7,7 +7,12 @@
  * @function : Table struct manager
  *
  */
-class TableSystem {
+
+import Table_ErrorCode from "./Table_ErrorCode";
+import Table_Scene from "./Table_Scene";
+import Table_Story from "./Table_Story";
+
+export default class TableSystem {
 
     public static _instance: TableSystem = null;
     public static getInstance(): TableSystem {
