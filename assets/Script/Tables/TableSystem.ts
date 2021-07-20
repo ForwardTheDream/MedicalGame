@@ -41,7 +41,7 @@ export default class TableSystem {
     
     //====================================================================================
 	public loadErrorCode(): void {
-		cc.loader.loadRes("Tables/ErrorCode.txt", (error, tableTxt)=>{
+		cc.loader.loadRes("Tables/ErrorCode", (error, tableTxt)=>{
 			if (error) {
 				cc.error(error.message);
 				return;
@@ -55,8 +55,7 @@ export default class TableSystem {
 				table_ErrorCode.initTable(jsData);
 				this.addErrorCode(table_ErrorCode);
 			}
-		});
-		
+		}
 	}
 		
 	private addErrorCode(table: Table_ErrorCode):void{
@@ -95,11 +94,12 @@ export default class TableSystem {
 
 	//====================================================================================
 	public loadScene(): void {
-		cc.loader.loadRes("Tables/Scene", (error, tableTxt) => {
+		cc.loader.loadRes("Tables/Scene", (error, tableTxt)=>{
 			if (error) {
 				cc.error(error.message);
 				return;
 			}
+
 			var jsonData = JSON.parse(tableTxt);
 
 			for(var i = 0;i < jsonData.length;i++) {
@@ -108,7 +108,7 @@ export default class TableSystem {
 				table_Scene.initTable(jsData);
 				this.addScene(table_Scene);
 			}
-		});
+		}
 	}
 		
 	private addScene(table: Table_Scene):void{
@@ -147,11 +147,12 @@ export default class TableSystem {
 
 	//====================================================================================
 	public loadStory(): void {
-		cc.loader.loadRes("Tables/Story", (error, tableTxt) => {
+		cc.loader.loadRes("Tables/Story", (error, tableTxt)=>{
 			if (error) {
 				cc.error(error.message);
 				return;
 			}
+
 			var jsonData = JSON.parse(tableTxt);
 
 			for(var i = 0;i < jsonData.length;i++) {
@@ -160,7 +161,7 @@ export default class TableSystem {
 				table_Story.initTable(jsData);
 				this.addStory(table_Story);
 			}
-		});
+		}
 	}
 		
 	private addStory(table: Table_Story):void{
