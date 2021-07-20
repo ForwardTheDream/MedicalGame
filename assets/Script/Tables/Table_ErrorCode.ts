@@ -2,13 +2,13 @@
  *
  * @author : ludingguo
  * 
- * @time : 2021-07-19
+ * @time : 2021-07-20
  * 
  * @function :  Table_ErrorCode class define
  *
  */
 import TableStruct from "./TableStruct";
-  
+
 export default class Table_ErrorCode extends TableStruct{
  
 	// define member values here
