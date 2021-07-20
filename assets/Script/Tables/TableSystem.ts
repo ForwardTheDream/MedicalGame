@@ -2,15 +2,15 @@
  *
  * @author : ludingguo
  * 
- * @time : 2021-07-19
+ * @time : 2021-07-20
  * 
  * @function : Table struct manager
  *
  */
-
 import Table_ErrorCode from "./Table_ErrorCode";
 import Table_Scene from "./Table_Scene";
 import Table_Story from "./Table_Story";
+
 
 export default class TableSystem {
 
@@ -41,15 +41,22 @@ export default class TableSystem {
     
     //====================================================================================
 	public loadErrorCode(): void {
-		var tableTxt = RES.getRes("ErrorCode_txt");
-		var jsonData = JSON.parse(tableTxt);
+		cc.loader.loadRes("Tables/ErrorCode", (error, tableTxt)=>{
+			if (error) {
+				cc.error(error.message);
+				return;
+			}
 
-		for(var i = 0;i < jsonData.length;i++) {
-			var jsData = jsonData[i];
-			var table_ErrorCode: Table_ErrorCode = new Table_ErrorCode();
-			table_ErrorCode.initTable(jsData);
-			this.addErrorCode(table_ErrorCode);
-		}
+			var jsonData = JSON.parse(tableTxt);
+
+			for(var i = 0;i < jsonData.length;i++) {
+				var jsData = jsonData[i];
+				var table_ErrorCode: Table_ErrorCode = new Table_ErrorCode();
+				table_ErrorCode.initTable(jsData);
+				this.addErrorCode(table_ErrorCode);
+			}
+		});
+		
 	}
 		
 	private addErrorCode(table: Table_ErrorCode):void{
@@ -88,15 +95,20 @@ export default class TableSystem {
 
 	//====================================================================================
 	public loadScene(): void {
-		var tableTxt = RES.getRes("Scene_txt");
-		var jsonData = JSON.parse(tableTxt);
+		cc.loader.loadRes("Tables/Scene", (error, tableTxt) => {
+			if (error) {
+				cc.error(error.message);
+				return;
+			}
+			var jsonData = JSON.parse(tableTxt);
 
-		for(var i = 0;i < jsonData.length;i++) {
-			var jsData = jsonData[i];
-			var table_Scene: Table_Scene = new Table_Scene();
-			table_Scene.initTable(jsData);
-			this.addScene(table_Scene);
-		}
+			for(var i = 0;i < jsonData.length;i++) {
+				var jsData = jsonData[i];
+				var table_Scene: Table_Scene = new Table_Scene();
+				table_Scene.initTable(jsData);
+				this.addScene(table_Scene);
+			}
+		});
 	}
 		
 	private addScene(table: Table_Scene):void{
@@ -135,15 +147,20 @@ export default class TableSystem {
 
 	//====================================================================================
 	public loadStory(): void {
-		var tableTxt = RES.getRes("Story_txt");
-		var jsonData = JSON.parse(tableTxt);
+		cc.loader.loadRes("Tables/Story", (error, tableTxt) => {
+			if (error) {
+				cc.error(error.message);
+				return;
+			}
+			var jsonData = JSON.parse(tableTxt);
 
-		for(var i = 0;i < jsonData.length;i++) {
-			var jsData = jsonData[i];
-			var table_Story: Table_Story = new Table_Story();
-			table_Story.initTable(jsData);
-			this.addStory(table_Story);
-		}
+			for(var i = 0;i < jsonData.length;i++) {
+				var jsData = jsonData[i];
+				var table_Story: Table_Story = new Table_Story();
+				table_Story.initTable(jsData);
+				this.addStory(table_Story);
+			}
+		});
 	}
 		
 	private addStory(table: Table_Story):void{

@@ -2,13 +2,13 @@
  *
  * @author : ludingguo
  * 
- * @time : 2021-07-19
+ * @time : 2021-07-20
  * 
  * @function :  Table_Scene class define
  *
  */
 import TableStruct from "./TableStruct";
-  
+
 export default class Table_Scene extends TableStruct{
  
 	// define member values here

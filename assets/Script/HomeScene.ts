@@ -1,3 +1,5 @@
+import TableSystem from "./Tables/TableSystem";
+
 const {ccclass, property} = cc._decorator;
 
 @ccclass
@@ -7,14 +9,15 @@ export default class HomeScene extends cc.Component {
     label: cc.Label = null;
 
     start () {
-        this.node.runAction(
-            cc.sequence(
-                cc.delayTime(6),
-                cc.callFunc(() => {
-                    cc.director.loadScene("ParkScene");
-                })
-            )
-        )
+        TableSystem.getInstance();
+        // this.node.runAction(
+        //     cc.sequence(
+        //         cc.delayTime(6),
+        //         cc.callFunc(() => {
+        //             cc.director.loadScene("ParkScene");
+        //         })
+        //     )
+        // )
     }
 
     update () {
