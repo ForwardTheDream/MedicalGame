@@ -14,8 +14,8 @@ export default class NewClass extends BaseObject {
     // @property(cc.Label)
     // label: cc.Label = null;
 
-    @property(cc.Node)
-    Choice: cc.Node = null;
+    // @property
+    // text: string = 'hello';
 
     @property(cc.Node)
     TextBox: cc.Node = null;
@@ -23,31 +23,28 @@ export default class NewClass extends BaseObject {
     @property(cc.Label)
     Text: cc.Label = null;
 
-    // @property
-    // text: string = 'hello';
-
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
     start() {
         this.TextBox.active = false;
+    }
+
+    checkRight() {
+        this.TextBox.active = true;
+        this.Text.string = "你真棒，谢谢你帮咱们按了电梯。";
         this.node.runAction(
             cc.sequence(
-                cc.delayTime(3),
+                cc.delayTime(2),
                 cc.callFunc(() => {
-                    this.talk();
-                }),
-                cc.delayTime(2)
+                    cc.director.loadScene("KindergartenScene3");
+                })
             )
         );
     }
 
-    talk() {
-        this.Text.string = "吃完饭，\n我们就去上幼儿园吧。";
-        this.TextBox.active = true;
-        this.Choice.active = true;
-    }
+    checkWrong() {}
 
     // update (dt) {}
 }
