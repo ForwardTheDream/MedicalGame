@@ -1,5 +1,5 @@
 import TableSystem from "./Tables/TableSystem";
-import { DeviceUtils } from "./Utils/CommonUtils";
+import { DeviceUtils, ConstDefine } from "./Utils/CommonUtils";
 import Bird from "./Object/Bird";
 import Table_Story from "./Tables/Table_Story";
 import ChoosePanel from "./Prefabs/ChoosePanel";
@@ -43,16 +43,28 @@ export default class HomeScene extends cc.Component {
             return;
         }
 
-        let url = "";
+        let that = this;
+        let url = ConstDefine.SERVER_IP + ConstDefine.LOGIN_SERVER_LET;
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
                 var response = xhr.responseText;
                 console.log(response);
+
+                let loginResult = JSON.parse(response);
+                if (loginResult.state == "true") {
+                    that.loginFinish();
+                }
             }
         };
-        xhr.open("GET", url, true);
-        xhr.send();
+
+        let data = {
+            operationCode:1,
+            userName:this.accountEdit.string,
+            password:this.passwordEdit.string
+        }
+        xhr.open("POST", url, true);
+        xhr.send(JSON.stringify(data));
     }
 
     onLogin() {
@@ -60,12 +72,34 @@ export default class HomeScene extends cc.Component {
             return;
         }
 
-        this.loginFinish();
         // cc.director.loadScene("KindergartenScene");
         if (this.accountEdit.string == "" || this.passwordEdit.string == "") {
             cc.log("账号或密码为空！")
             return;
         }
+        
+        let that = this;
+        let url = ConstDefine.SERVER_IP + ConstDefine.LOGIN_SERVER_LET;
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
+                var response = xhr.responseText;
+                console.log(response);
+
+                let loginResult = JSON.parse(response);
+                if (loginResult.state == "true") {
+                    that.loginFinish();
+                }
+            }
+        };
+
+        let data = {
+            operationCode:3,
+            userName:this.accountEdit.string,
+            password:this.passwordEdit.string
+        }
+        xhr.open("POST", url, true);
+        xhr.send(JSON.stringify(data));
     }
 
     loginFinish() {
@@ -157,7 +191,6 @@ export default class HomeScene extends cc.Component {
     }
 
     showChooseScene (tabStory:Table_Story) {
-        console.log("显示选择场景面板");
 
         let ChooseScenePanel = cc.find("Canvas/ChooseScenePanel");
         let bird = cc.find("Bird")
@@ -203,7 +236,6 @@ export default class HomeScene extends cc.Component {
     }
 
     changeScene (event,coustom) {
-        console.log("选择场景ID：" + coustom);
         switch(coustom) {
             case "1":
                 cc.director.loadScene("SuperMarketScene");
