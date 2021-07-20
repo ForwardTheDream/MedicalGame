@@ -27,8 +27,10 @@ export default class NewClass extends cc.Component {
     start () {
 
         
-        this.button.node.on("click",event=>{(this.label.string="你真棒，谢谢你帮咱们按了电梯。");
+        this.button.node.on("click",event=>{this.label.string="你真棒，谢谢你帮咱们按了电梯。";
+        
         cc.director.loadScene("Road");});
+        
 
     }
 

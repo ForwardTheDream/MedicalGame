@@ -39,6 +39,7 @@ export default class NewClass extends cc.Component {
         this.card.node.on("click",event=>cc.director.loadScene("BusSeats"));
         this.coin.node.on("click",event=>cc.director.loadScene("BusSeats"));
         this.cash.node.on("click",event=>cc.director.loadScene("BusSeats"));
+        
     }
 
     // update (dt) {}

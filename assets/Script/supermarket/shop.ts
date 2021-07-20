@@ -46,7 +46,7 @@ export default class NewClass extends cc.Component {
         });
 
         this.confirm.node.on("click",event=>{this.casher.active=true;
-            this.scheduleOnce(function(){cc.director.loadScene("Bus")},3)});
+            this.label.string="买完了回家了！！"});
 
     }
 

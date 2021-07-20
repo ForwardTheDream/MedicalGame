@@ -6,6 +6,10 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 const {ccclass, property} = cc._decorator;
+declare interface Window {
+    property1: number;
+}
+window["property1"]=1;
 
 @ccclass
 export default class NewClass extends cc.Component {
