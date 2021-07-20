@@ -34,8 +34,14 @@ export default class ChoosePanel extends cc.Component {
 
     // update (dt) {}
     show(title:string, description:string, okCallback:Function, cancelCallback:Function) {
-        this.title.string = title;
-        this.description.string = description;
+        if (this.title != null) {
+            this.title.string = title;
+        }
+        
+        if (this.description != null) {
+            this.description.string = description;
+        }
+        
         this.okCallbackEvent = okCallback;
         this.cancelCallbackEvent = cancelCallback;
     }

@@ -1,4 +1,3 @@
-import { Label } from "./../../creator.d";
 // Learn TypeScript:
 //  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
 // Learn Attribute:
@@ -13,26 +12,23 @@ export default class NewClass extends cc.Component {
     // @property(cc.Label)
     // label: cc.Label = null;
 
-    @property(cc.Node)
-    Choice: cc.Node = null;
-
     // @property
-    // text: string = "hello";
+    // text: string = 'hello';
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
     start() {
-        this.Choice.active = false;
-    }
+        this.node.runAction(
+            cc.sequence(
+                cc.delayTime(6),
 
-    btnCheckYes() {
-        cc.director.loadScene("KindergartenScene2");
-    }
-
-    btnCheckNo() {
-        cc.director.loadScene("HomeScene");
+                cc.callFunc(() => {
+                    cc.log("大家脸色都不好看");
+                })
+            )
+        );
     }
 
     // update (dt) {}
