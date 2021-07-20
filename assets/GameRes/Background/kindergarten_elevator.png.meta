@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "4dc5e492-a097-46b2-9578-640092161724",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 602,
+  "platformSettings": {},
+  "subMetas": {
+    "kindergarten_elevator": {
+      "ver": "1.0.4",
+      "uuid": "d57de827-121b-4374-9ee7-f2c8de87f851",
+      "rawTextureUuid": "4dc5e492-a097-46b2-9578-640092161724",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1024,
+      "height": 602,
+      "rawWidth": 1024,
+      "rawHeight": 602,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
