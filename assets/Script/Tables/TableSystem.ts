@@ -41,7 +41,7 @@ export default class TableSystem {
     
     //====================================================================================
 	public loadErrorCode(): void {
-		cc.loader.loadRes("Tables/ErrorCode", (error, tableTxt)=>{
+		cc.loader.loadRes("Tables/ErrorCode.txt", (error, tableTxt)=>{
 			if (error) {
 				cc.error(error.message);
 				return;

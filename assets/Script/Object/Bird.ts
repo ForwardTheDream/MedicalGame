@@ -25,24 +25,15 @@ export default class Bird extends BaseObject{
     start () {
         this.talk(-1);
 
-        // let tabStory:Table_Story = TableSystem.getInstance().getStoryById(1);
-        // if (tabStory != null) {
-        //     console.log("小鸟说的话：" + tabStory.m_Word);
-        // } else {
-        //     console.log("文件读取失败！" );
-        // }
-        console.log("小鸟开始运动");
-        this.node.runAction(
-            cc.sequence(
-                cc.moveTo(3, new cc.Vec2(200, 400)),
-                cc.delayTime(2),
-                cc.callFunc(() => {
-                    // ...
-                    console.log("小鸟开始说话");
-                    this.talk(1);
-                })
-            )
-        );
+        // this.node.runAction(
+        //     cc.sequence(
+        //         cc.moveTo(3, new cc.Vec2(200, 400)),
+        //         cc.delayTime(2),
+        //         cc.callFunc(() => {
+        //             this.talk(1);
+        //         })
+        //     )
+        // );
     }
 
     update (dt) {
