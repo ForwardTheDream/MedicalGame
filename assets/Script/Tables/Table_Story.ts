@@ -15,10 +15,11 @@ export default class Table_Story extends TableStruct{
 	public m_ID:number = 0;	//剧情ID
 	public m_Next:number = 0;	//下一个ID
 	public m_TalkerID:number = 0;	//当前说话者的编号，0：表示用户说话
+	public m_Title:string = "";	//选择对话框标题栏
 	public m_Word:string = "";	//如果是NPC，则展示该语句，如果是用户，则对比是否说了这句话
 	public m_Time:number = 0;	//该对话框持续时间
-	public m_IsOK:number = 0;	//是否出现“确认”按钮
-	public m_IsCancel:string = "";	//是否出现“取消”按钮
+	public m_IsCallBack:number = 0;	//是否引入其他场景逻辑
+	public m_IsBirdFly:number = 0;	//结束后小鸟是否飞走
 	
 	public constructor(){
 		super();
@@ -30,10 +31,11 @@ export default class Table_Story extends TableStruct{
 		this.m_ID = jsonData.ID;
 		this.m_Next = jsonData.Next;
 		this.m_TalkerID = jsonData.TalkerID;
+		this.m_Title = jsonData.Title;
 		this.m_Word = jsonData.Word;
 		this.m_Time = jsonData.Time;
-		this.m_IsOK = jsonData.IsOK;
-		this.m_IsCancel = jsonData.IsCancel;
+		this.m_IsCallBack = jsonData.IsCallBack;
+		this.m_IsBirdFly = jsonData.IsBirdFly;
 		
 	}
 	
