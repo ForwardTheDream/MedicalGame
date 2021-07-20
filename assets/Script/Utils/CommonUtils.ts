@@ -94,6 +94,10 @@ export class ConstDefine {
     public static PLATFORM_ANDROID:number = 3;
     public static PLATFORM_GOOGLE:number = 4;
     public static PLATFORM_TYPE:number = 4; // 0:原生，1：微信小游戏；2：抖音小游戏；3：Android平台； 4：google平台
+
+
+    public static SERVER_IP:string = "http://42.193.4.130:8080/";
+    public static LOGIN_SERVER_LET:string = "OperationServlet";
 }
 
 // 通用辅助接口
