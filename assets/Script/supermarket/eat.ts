@@ -6,13 +6,12 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 const {ccclass, property} = cc._decorator;
-declare interface Window {
-    property1: number;
-}
-window["property1"]=1;
+
 
 @ccclass
 export default class NewClass extends cc.Component {
+    
+   
 
     @property(cc.Label)
     label: cc.Label = null;
@@ -27,6 +26,8 @@ export default class NewClass extends cc.Component {
     button1:cc.Button=null;
     @property(cc.Button)
     button2:cc.Button=null;
+    @property(cc.Node)
+    return:cc.Node=null;
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -41,6 +42,7 @@ export default class NewClass extends cc.Component {
 
         this.button1.node.on("click",event=>cc.director.loadScene("Elevator"));
         this.button2.node.on("click",event=>cc.director.loadScene("HomeScene"));
+
     }
 
     // update (dt) {}
