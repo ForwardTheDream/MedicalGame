@@ -10,7 +10,7 @@ import { CommonUtils } from "../Utils/CommonUtils";
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class Lights extends cc.Component {
     // @property(cc.Label)
     // label: cc.Label = null;
 
@@ -41,6 +41,9 @@ export default class NewClass extends cc.Component {
         this.red.active = false;
         this.yellow.active = false;
         this.green.active = false;
+    }
+
+    light() {
         this.type = CommonUtils.getRandomRange(1, 4);
         switch (this.type) {
             case 1:
@@ -61,32 +64,29 @@ export default class NewClass extends cc.Component {
     btnCheck(event, customEventData) {
         switch (this.type) {
             case 1:
-                if (customEventData == 2) this.checkSuccess();
-                else this.checkFalse("现在是红灯哦，不可以过！");
-                break;
+                if (customEventData == 2) return this.checkSuccess();
+                else return this.checkFalse("现在是红灯哦，不可以过！");
             case 2:
-                if (customEventData == 4) this.checkSuccess();
-                else this.checkFalse("现在是黄灯，需要再等等！");
-                break;
+                if (customEventData == 4) return this.checkSuccess();
+                else return this.checkFalse("现在是黄灯，需要再等等！");
             case 3:
-                if (customEventData == 5) this.checkSuccess();
-                else this.checkFalse("现在是绿灯，是可以过的！");
-                break;
+                if (customEventData == 5) return this.checkSuccess();
+                else return this.checkFalse("现在是绿灯，是可以过的！");
         }
     }
+
     checkSuccess() {
         this.node.runAction(
             cc.sequence(
                 cc.callFunc(() => {
                     this.Text.string = "答对啦，你真棒！";
                 }),
-                cc.delayTime(2),
-                cc.callFunc(() => {
-                    cc.director.loadScene("KindergartenScene5");
-                })
+                cc.delayTime(2)
             )
         );
+        return true;
     }
+
     checkFalse(str) {
         let temp = this.Text.string;
         this.node.runAction(
@@ -100,6 +100,7 @@ export default class NewClass extends cc.Component {
                 })
             )
         );
+        return false;
     }
     // update (dt) {}
 }

@@ -1,4 +1,3 @@
-import { Label } from "./../../creator.d";
 // Learn TypeScript:
 //  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
 // Learn Attribute:
@@ -9,30 +8,31 @@ import { Label } from "./../../creator.d";
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class Player extends cc.Component {
     // @property(cc.Label)
     // label: cc.Label = null;
 
-    @property(cc.Node)
-    Choice: cc.Node = null;
-
     // @property
-    // text: string = "hello";
+    // text: string = 'hello';
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
-    start() {
-        this.Choice.active = false;
+    start() {}
+
+    walk(x: number, y: number, time: number) {
+        this.node.runAction(
+            cc.sequence(
+                cc.moveTo(time, new cc.Vec2(x, y)),
+
+                cc.delayTime(time)
+            )
+        );
     }
 
-    btnCheckYes() {
-        cc.director.loadScene("KindergartenScene2");
-    }
-
-    btnCheckNo() {
-        cc.director.loadScene("HomeScene");
+    eating() {
+        console.log("播放吃饭动画，持续3s。");
     }
 
     // update (dt) {}
