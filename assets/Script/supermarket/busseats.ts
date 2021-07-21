@@ -10,15 +10,21 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
+@property(cc.Node)
+old:cc.Node=null;
+
+@property(cc.Node)
+young:cc.Node=null;
+@property(cc.Button)
+yes:cc.Button=null;
+@property(cc.Button)
+no:cc.Button=null;
+
     @property(cc.Label)
     label: cc.Label = null;
 
     @property
     text: string = 'hello';
-
-    @property(cc.Button)
-    button:cc.Button=null;
-    
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -26,11 +32,12 @@ export default class NewClass extends cc.Component {
 
     start () {
 
-        
-        this.button.node.on("click",event=>{this.label.string="你真棒，谢谢你帮咱们按了电梯。";
-        
-        cc.director.loadScene("Road");});
-        
+        this.old.active=false;
+        this.young.active=false;
+
+        this.yes.node.on("click",event=>{this.old.active=true;
+            this.young.active=true;this.scheduleOnce(function(){cc.director.loadScene("Supermarket")},3)});
+
 
     }
 
