@@ -7,43 +7,44 @@
 
 const {ccclass, property} = cc._decorator;
 
-
 @ccclass
-export default class NewClass extends cc.Component {
-    
-   
+export default class ChoosePanel extends cc.Component {
 
     @property(cc.Label)
-    label: cc.Label = null;
+    title: cc.Label = null;
 
-    @property
-    text: string = 'hello';
+    @property(cc.Label)
+    description:cc.Label = null;
+
+    @property(cc.Node)
+    btnCancel:cc.Node = null;
+
+    @property(cc.Node)
+    btnOK:cc.Node = null;
+
     
-    @property(cc.Node)
-    node:cc.Node=null;
-
-    @property(cc.Button)
-    button1:cc.Button=null;
-    @property(cc.Button)
-    button2:cc.Button=null;
-    @property(cc.Node)
-    return:cc.Node=null;
-
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 
     start () {
-        this.button1.node.active=false;
-        this.button2.node.active=false;
-        this.label.node.active=false;
+        this.node.opacity=0;
+
         this.node.runAction(cc.sequence(cc.delayTime(3),
-        cc.callFunc(()=>{this.label.node.active=true,this.button1.node.active=true,this.button2.node.active=true})));
-
-        this.button1.node.on("click",event=>cc.director.loadScene("Elevator"));
-        this.button2.node.on("click",event=>cc.director.loadScene("HomeScene"));
-
+        cc.callFunc(()=>this.node.opacity=255)));
     }
 
     // update (dt) {}
+   
+    onOK(){
+        
+            cc.director.loadScene("Elevator");
+        
+    }
+
+    onCancel(){
+         
+        cc.director.loadScene("HomeScene");
+        
+    }
 }
